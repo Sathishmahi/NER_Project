@@ -1,3 +1,2 @@
 dvc
 mkdocs-material
--e .
