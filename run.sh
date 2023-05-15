@@ -1,6 +1,6 @@
 bash git_init.sh
-bash init_setup.sh
 python template.py
+bash init_setup.sh
 echo "ALL SETUP DONE"
 mkdocs new .
 echo "mkdocs initialize done"
