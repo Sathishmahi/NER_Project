@@ -1,0 +1,5 @@
+data_ingestion:
+  root_dir: data_ingestion
+  cache_dir: cache_dir 
+  name: xtreme
+  subset: PAN-X.ta

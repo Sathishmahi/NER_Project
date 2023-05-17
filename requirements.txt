@@ -1,2 +1,6 @@
 dvc
 mkdocs-material
+transformers
+datasets
+tensorflow
+-e .

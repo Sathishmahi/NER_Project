@@ -3,5 +3,5 @@ conda create -p venv python=3.10 -y
 echo "CONDA ENV CREATE DONE"
 source activate venv/
 echo "INSTALL REQUIREMENTS TXT"
-pip install -r requirements.txt
+pip install -r requirements.txt -q
 echo "REQUIREMENTS TXT INSTALL DONE"

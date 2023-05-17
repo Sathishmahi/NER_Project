@@ -1,0 +1,10 @@
+stages:
+  data_ingestion:
+    cmd: python src/NER_Project/components/data_ingestion.py
+
+    deps:
+      - src/NER_Project/components/data_ingestion.py
+      - src/NER_Project/utils
+
+    outs:
+      - artifacts/data_ingestion

@@ -1,0 +1,17 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/NER_Project/components/data_ingestion.py
+    deps:
+    - path: src/NER_Project/components/data_ingestion.py
+      md5: 6cb5fb2cac1103c520710f60835f8be1
+      size: 1058
+    - path: src/NER_Project/utils
+      md5: b9d88e0d44b676a6701e72e1bd8f0c38.dir
+      size: 2008
+      nfiles: 4
+    outs:
+    - path: artifacts/data_ingestion
+      md5: 36eea3362e66af162557b923e2694b8a.dir
+      size: 472692135
+      nfiles: 187
